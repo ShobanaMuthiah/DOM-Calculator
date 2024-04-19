@@ -1,4 +1,6 @@
-
+#title, #description{
+    text-align: center !important;
+}
 @media  (min-width: 576px){
 .divi{
     background-color: #DADADA;

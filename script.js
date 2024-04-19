@@ -59,7 +59,6 @@ div1.setAttribute("id", "result");
 div1.setAttribute("class", "display");
 div1.setAttribute("placeholder", "0");
 
-// div1.setAttribute("id","result");
 div1.readOnly = true;
 div2.setAttribute("class", "btns");
 
