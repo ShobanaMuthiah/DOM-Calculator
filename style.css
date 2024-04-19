@@ -1,0 +1,122 @@
+
+@media  (min-width: 576px){
+.divi{
+    background-color: #DADADA;
+    width:50% !important;
+    text-align: center;
+    padding:2%;
+    border-radius: 10px;
+    margin-left:25%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border: outset;
+}
+.c{
+    color:red !important;
+}
+.bl{
+    color:blue !important;
+}
+.blu{
+    background-color: rgba(0, 0, 255, 0.539) !important;
+    font-size: xx-large !important;
+}
+.btn{
+    text-align: justify;
+    border-radius: 0% !important;
+    padding-top: 20px !important;
+    /* height: 40% !important; */
+}
+#btn-group{
+    border:#e4e4e4 solid !important;
+    border-right:1px !important;
+    border-left:1px !important;
+    
+}
+.btn-group{
+    border:#e4e4e4 solid !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    border-bottom: 0 !important;
+    border-radius: 0% !important;
+   
+}
+.display{
+    height: 10% !important;
+width: 100% !important;
+margin-bottom: 2%;
+font-size: 50px !important;
+color: #919191 ;
+font-weight: bolder !important;
+border:none;
+background-color: #B9B9B9;
+}}
+@media  (max-width: 575.98px) { 
+    *{
+        margin:0 !important;
+    }
+    .divi{
+        background-color: #DADADA;
+        width:100vw !important;
+        text-align: center;
+        border-radius: 10px;
+        border: outset;
+    }
+    .display{
+        height: 10% !important;
+    width: 100vw !important;
+    font-size: 20px !important;
+    color: #919191 ;
+    font-weight: bolder !important;
+    border:none;
+    background-color: #B9B9B9;
+    }
+    .blu{
+        background-color: blue !important;
+    }
+    .btn{
+        border-radius: 0 !important;
+    }
+    .c{
+        color:red !important;
+    }
+    .bl{
+        color:blue !important;
+    }
+
+ }
+ @media  (max-width: 140px){
+    .btn-group{
+        width: fit-content;
+    }
+    .btn{
+        text-align: justify;
+        border-radius: 0% !important;
+        padding-top: 0 !important;
+        padding:0 !important;
+        font-size: xx-small !important;
+        background-color: none !important;
+        /* height: 40% !important; */
+    }
+    *{
+        margin:0 !important;
+    }
+    
+    .divi{
+        margin:0 !important;
+        width:100vw !important;
+        padding:0;
+        text-align: center;
+        border-radius: 0 !important;
+        
+    }
+    .display{
+        height: 10% !important;
+    width: 100vw !important;
+    color: #919191 ;
+    font-weight:0 !important;
+    background-color: #B9B9B9;
+    }
+}
+
+
